@@ -77,6 +77,7 @@ position: absolute;
   margin-bottom: 20px;
   overflow: hidden;
   float: left;
+
 }
 
 .card:hover{
@@ -90,6 +91,7 @@ position: absolute;
   }
 
 }
+
 
 .card-img{
   object-fit: cover;
@@ -110,10 +112,18 @@ position: absolute;
 
 .card-title{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 16px;
 }
 .card-text{
-font-size: 14px;
+font-size: 12px;
+
+}
+
+.card-footer{
+  border: none;
+  padding: 0px;
+  padding-top: 10px;
+  background-color: #F4F4F4;
 }
 
 .btn-primary{
@@ -123,8 +133,8 @@ font-size: 14px;
  border-radius: 4px;
  border: none;
  font-size: 14px;
- margin: 0 auto;
  vertical-align: middle;
+
 }
 
 .btn-primary:hover{
