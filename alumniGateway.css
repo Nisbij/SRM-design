@@ -1,0 +1,57 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+  }
+  
+  h2,h3,h4{
+    color: #00224E;
+  }
+  
+  p{
+    color:#343434
+  }
+  
+  .carousel-image{
+      height: 450px;
+      object-fit: cover;
+      filter: brightness(50%);
+      
+  }
+  .carousel-caption{
+  text-align: center;  
+  top: 40%;
+  
+  position: absolute;
+  
+  
+  }
+
+  .gHead {
+    font-weight:700;
+    font-size: 25px;
+    color: #00224E;
+    margin: 30px;
+    margin-left: 0;
+}
+  
+  .heading{
+      font-weight: 700;
+  }
+  
+  .container{
+    align-items: baseline;
+  }
+  
+  .list-group-item{
+    padding: 5px;
+    border: 0;
+  }
+  
+  .hrblue{
+    background-color: #00224E;
+    border: 3px solid #00224E;
+  }
+
+.gAlumniText {
+    text-align: justify;
+}
