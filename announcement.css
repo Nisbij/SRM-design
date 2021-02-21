@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#announcementHeading {
+    font-weight:700;
+    font-size: 25px;
+    color: #00224E;
+    margin: 20px;
+}
+
+.tabLinks {
+    font-weight: 500;
+    font-size: 16px;
+    color: #00224E;
+    margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+    #tabLinksWrapper {
+        display: flex;
+    }
+}
+
+.active {
+    border-bottom: 2px solid #00224E;
+}
+
+.sortBtn {
+    border: 1px solid #00224E;
+    background-color: white;
+    border-radius: 4px;
+    width: 80px;
+    height: 32px;
+    font-size: 16px;
+    color: #00224E;
+    margin: 0 20px;
+}
+
+
+@media (max-width: 484px) {
+    .sortBtn {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+.announcemntCard {
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 0;
+}
+
+.announcemntCard:hover {
+    background-color: #F9F6EF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+}
+
+.cardLeft {
+    font-size: 28px; 
+    color: #00224E; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardLeft > span {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cardCenter {
+    display: flex;
+    align-items: center;
+}
+
+.cardCenter > img {
+    width: 11.71vw;
+    height: 132px;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+    .cardCenter {
+        display: none;
+    }
+}
+
+.annCardTitle {
+    font-weight: bold;
+    font-size: 24px;
+    color: #00224E;
+}
+
+@media (max-width: 576px) {
+    .annCardBody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.annCardText {
+    font-size: 14px;
+    line-height: 28px;
+    color: #343434;
+}

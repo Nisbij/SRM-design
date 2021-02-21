@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM - Announcement</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="announcement.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/676309e3ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="announcementHeading">Announcements
+            <i class="fa fa-angle-double-right"></i>
+        </h1>
+        <div class="tab d-flex justify-content-between">
+            <div id="tabLinksWrapper">
+                <div><a class="tabLinks" onclick="changeTab(event, 'latest')" id="defaultOpen">Latest</a></div>
+                <div><a class="tabLinks" onclick="changeTab(event, 'pastAnnouncement')">Past Announcements</a></div>
+            </div>
+            <div>
+                <button class="sortBtn">Year <i class="fas fa-chevron-down fa-sm"></i></button>
+                <button class="sortBtn">Date <i class="fas fa-chevron-down fa-sm"></i></button>
+            </div>
+        </div>
+          
+          <div id="latest" class="tabContent mt-5">
+            <div class="card mb-5 announcemntCard">
+                <div class="row">
+                    <div class="col-12 col-sm-2 cardLeft">
+                        FEB <br/>
+                        <span>15</span>
+                    </div>
+                    <div class="col-12 col-sm-2 cardCenter">
+                        <img src="assets\SRM.jpg" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body annCardBody">
+                          <h5 class="card-title annCardTitle">Apply SRM JEEE 2021</h5>
+                          <p class="card-text annCardText">
+                            To apply online visit: www.srmist.edu.in <br/>
+                            Email: admissions.india@srmist.edu.in <br/>
+                            Helpline: 044 2745 5510, 044 47437500 <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 announcemntCard">
+                <div class="row">
+                    <div class="col-12 col-sm-2 cardLeft">
+                        FEB <br/>
+                        <span>15</span>
+                    </div>
+                    <div class="col-12 col-sm-2 cardCenter">
+                        <img src="assets\SRM.jpg" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body annCardBody">
+                          <h5 class="card-title annCardTitle">Compensatory Courses Registration for Even 
+                            Semester 2020-2021</h5>
+                          <p class="card-text annCardText">
+                            Compensatory Courses Registration for Even Semester 2020-2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 announcemntCard">
+                <div class="row">
+                    <div class="col-12 col-sm-2 cardLeft">
+                        FEB <br/>
+                        <span>15</span>
+                    </div>
+                    <div class="col-12 col-sm-2 cardCenter">
+                        <img src="assets\SRM.jpg" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body annCardBody">
+                          <h5 class="card-title annCardTitle">Apply SRM JEEE 2021</h5>
+                          <p class="card-text annCardText">
+                            To apply online visit: www.srmist.edu.in <br/>
+                            Email: admissions.india@srmist.edu.in <br/>
+                            Helpline: 044 2745 5510, 044 47437500 <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+          <div id="pastAnnouncement" class="tabContent">
+            <div class="card mb-5 announcemntCard">
+                <div class="row">
+                    <div class="col-12 col-sm-2 cardLeft">
+                        FEB <br/>
+                        <span>15</span>
+                    </div>
+                    <div class="col-12 col-sm-2 cardCenter">
+                        <img src="assets\SRM.jpg" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body annCardBody">
+                          <h5 class="card-title annCardTitle">Apply SRM JEEE 2021</h5>
+                          <p class="card-text annCardText">
+                            To apply online visit: www.srmist.edu.in <br/>
+                            Email: admissions.india@srmist.edu.in <br/>
+                            Helpline: 044 2745 5510, 044 47437500 <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 announcemntCard">
+                <div class="row">
+                    <div class="col-12 col-sm-2 cardLeft">
+                        FEB <br/>
+                        <span>15</span>
+                    </div>
+                    <div class="col-12 col-sm-2 cardCenter">
+                        <img src="assets\SRM.jpg" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body annCardBody">
+                          <h5 class="card-title annCardTitle">Compensatory Courses Registration for Even 
+                            Semester 2020-2021</h5>
+                          <p class="card-text annCardText">
+                            Compensatory Courses Registration for Even Semester 2020-2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5 announcemntCard">
+                <div class="row">
+                    <div class="col-12 col-sm-2 cardLeft">
+                        FEB <br/>
+                        <span>15</span>
+                    </div>
+                    <div class="col-12 col-sm-2 cardCenter">
+                        <img src="assets\SRM.jpg" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body annCardBody">
+                          <h5 class="card-title annCardTitle">Apply SRM JEEE 2021</h5>
+                          <p class="card-text annCardText">
+                            To apply online visit: www.srmist.edu.in <br/>
+                            Email: admissions.india@srmist.edu.in <br/>
+                            Helpline: 044 2745 5510, 044 47437500 <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="https://use.fontawesome.com/f22178458a.js"></script>
+    <script src="announcement.js"></script>
+</body>
+</html>
