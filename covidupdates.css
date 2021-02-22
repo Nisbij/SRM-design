@@ -84,6 +84,7 @@ body{
     }
   }
   .glowingbutton {
+      width: 70px;
       float: right;
       color: white;
     animation: glowing 1300ms infinite;
