@@ -14,7 +14,6 @@ body{
   .carousel-image{
       height: 450px;
       object-fit: cover;
-      filter: brightness(50%);
       
   }
   .carousel-caption{

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="../common.css">
+    <title>Events</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#" style="margin-left: 20px;">
+            <img src="assets\srmlogo-02.png" width="132" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTarget" aria-controls="navTarget" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navTarget">
+            <div class="navbar-nav">
+              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link" href="">Academics</a>
+              <a class="nav-link" href="research.html">Research</a>
+              <a class="nav-link" href="campusife.html">Campus Life</a>
+              <a class="nav-link" href="admission.html">Admission</a>
+              <a class="nav-link" href="">About</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Gateways
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Telemedicines</a></li>
+                  <li><a class="dropdown-item" href="covidupdates.html">Covid-19 Updates</a></li>
+                  <li><a class="dropdown-item" href="#">Announcements</a></li>
+                  <li><a class="dropdown-item" href="#">Students</a></li>
+                  <li><a class="dropdown-item" href="faculty.html">Faculty</a></li>
+                  <li><a class="dropdown-item" href="#">Visitors</a></li>
+                  <li><a class="dropdown-item" href="#">Alumini</a></li>
+                  <li><a class="dropdown-item" href="#">Career</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+              </li>
+              <form class="d-flex" style="margin-left: 20px; margin-right: 20px;">
+                <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="searchBtn" type="submit">
+                    <img src="assets\search.png" alt="">
+                </button>
+              </form>
+            </div>
+        </div>
+    </nav>
+
+    <div >
+        <div class="second-nav">
+           <ul class="second-nav__items">
+             <li class="second-nav__item">
+               <a href="#">Telemedicines</a>
+             </li>
+             <li class="second-nav__item">
+               <a href="covidupdates.html">Covid-19 Updates</a>
+             </li>
+             <li class="second-nav__item">
+               <a href="#">Announcements</a>
+             </li>
+             <li class="second-nav__item">
+               <a href="#">Students</a>
+             </li>
+             <li class="second-nav__item">
+               <a href="faculty.html">Faculty</a>
+             </li>
+             <li class="second-nav__item">
+               <a href="#">Visitors</a>
+             </li>
+             <li class="second-nav__item">
+              <a href="#">Alumini</a>
+            </li>
+            <li class="second-nav__item">
+              <a href="#">Career</a>
+            </li>
+            <li class="second-nav__item">
+              <a href="#">Contact us</a>
+            </li>
+           </ul>
+        </div>
+      </div>
+    
+    <div class="container">
+        <h4 class="heading">Events>></h4>
+        <select name="year" value="Year" class="dropdown-select" id="cars">
+            <option value="Year">Year</option>
+            <option defa></option>
+          </select>
+          <select name="date" class="dropdown-select" id="cars">
+            <option value="Date">Date</option>
+          </select>
+          <br><br><br>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a type="button" class="btn bstyle">Latest</a>
+            <a type="button" class="btn bstyle">Past Events</a>
+            <a type="button" class="btn bstyle">Future Events</a>
+        </div>
+        <div class="grid-container card">
+            <div class="grid-item item1">
+                <span class="card-month">APR
+                   <span class="card-date">21</span> 
+                </span>
+            </div>
+            <div class="grid-item item2">
+                <img class="card-img" src="https://www.srmist.edu.in/sites/default/files/images/thumnail_international-international.jpg"/>
+            </div>
+            <div class="grid-item item3">
+                <a class="card-title">International Conference on Power Electronics and Renewable Energy Systems (ICPERES 2021)</a>
+            </div>
+            <div class="grid-item item4">
+                <p class="card-text">Organized by the Department of Electrical and Electronics Engineering, SRM Institute of Science and Technology, Kattankulathur. International Conference on Power Electronics and Renewable...</p>
+            </div>
+          </div>
+        
+          <div class="grid-container card">
+            <div class="grid-item item1">
+                <span class="card-month">APR
+                   <span class="card-date">21</span> 
+                </span>
+            </div>
+            <div class="grid-item item2">
+                <img class="card-img" src="https://www.srmist.edu.in/sites/default/files/images/thumnail_international-international.jpg"/>
+            </div>
+            <div class="grid-item item3">
+                <a class="card-title">International Conference on Power Electronics and Renewable Energy Systems (ICPERES 2021)</a>
+            </div>
+            <div class="grid-item item4">
+                <p class="card-text">Organized by the Department of Electrical and Electronics Engineering, SRM Institute of Science and Technology, Kattankulathur. International Conference on Power Electronics and Renewable...</p>
+            </div>
+          </div>
+    </div>
+</body>
+
+</html>

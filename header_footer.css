@@ -107,7 +107,7 @@ body {
 }
 
 #event {
-  background-image: url('./images/mainBg.jpg');
+  background-image: url('./assets/mainBg.jpg');
   background-size: cover;
   width: 100%;
   height: auto;
