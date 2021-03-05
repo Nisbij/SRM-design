@@ -11,6 +11,7 @@ nav {
   font-size: 16px;
   color: #fff !important;
   margin: 0 20px;
+  font-weight: bold;
 }
 
 #searchInput{ 
@@ -40,6 +41,7 @@ nav{
     width: 100%;
     vertical-align: middle;
     box-shadow: 2px 1px #000;
+    margin-bottom: 2px;
   }
   .second-nav__items {
     margin: 0;
@@ -56,6 +58,7 @@ nav{
     color: #000000;
     padding: 3px 0;
     font-size: 18px;
+    font-weight: bold;
   }
 
 
@@ -77,6 +80,7 @@ nav{
   .special{
       display: block;
       font-size: 14px;
+      font-weight: bold;
       
   }
 
